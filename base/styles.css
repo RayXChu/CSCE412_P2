@@ -27,3 +27,9 @@ p {
     margin: 30px 0;
     text-align: left;
 }
+
+.logo {
+    width: 180px;
+    height: auto;
+    margin: 20px 0;
+}
