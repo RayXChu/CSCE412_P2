@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+.container {
+    width: 80%;
+    max-width: 700px;
+    margin: 80px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.course {
+    display: flex;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.course input,
+.course select {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.course input[type="text"] {
+    flex: 2;
+}
+
+.course input[type="number"] {
+    width: 100px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 25px;
+}
+
+.logo {
+    display: block;
+    width: 100px;
+    height: auto;
+    margin: 30px auto 0;
+}

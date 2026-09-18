@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <main class="container">
+        <h1>GPA Calculator</h1>
+        <p>Enter your course grades and credit hours.</p>
+
+        <div class="course">
+            <input type="text" placeholder="Course 1">
+            <select class="grade">
+                <option value="4">A</option>
+                <option value="3">B</option>
+                <option value="2">C</option>
+                <option value="1">D</option>
+                <option value="0">F</option>
+            </select>
+            <input type="number" class="credits" placeholder="Credits" min="0" max="4">
+        </div>
+
+        <div class="course">
+            <input type="text" placeholder="Course 2">
+            <select class="grade">
+                <option value="4">A</option>
+                <option value="3">B</option>
+                <option value="2">C</option>
+                <option value="1">D</option>
+                <option value="0">F</option>
+            </select>
+            <input type="number" class="credits" placeholder="Credits" min="0" max="4">
+        </div>
+
+        <div class="course">
+            <input type="text" placeholder="Course 3">
+            <select class="grade">
+                <option value="4">A</option>
+                <option value="3">B</option>
+                <option value="2">C</option>
+                <option value="1">D</option>
+                <option value="0">F</option>
+            </select>
+            <input type="number" class="credits" placeholder="Credits" min="0" max="4">
+        </div>
+
+        <div class="course">
+            <input type="text" placeholder="Course 4">
+            <select class="grade">
+                <option value="4">A</option>
+                <option value="3">B</option>
+                <option value="2">C</option>
+                <option value="1">D</option>
+                <option value="0">F</option>
+            </select>
+            <input type="number" class="credits" placeholder="Credits" min="0" max="4">
+        </div>
+
+        <button onclick="calculateGPA()">Calculate GPA</button>
+
+        <h2 id="result">GPA: --</h2>
+
+        <img src="xingVM.png" alt="Xing VM Logo" class="logo">
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
