@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <main class="container">
+        <h1>Temperature Converter</h1>
+
+        <input type="number" id="temperature" placeholder="Enter temperature">
+
+        <select id="conversion">
+            <option value="fToC">Fahrenheit → Celsius</option>
+            <option value="cToF">Celsius → Fahrenheit</option>
+        </select>
+
+        <button onclick="convertTemperature()">Convert</button>
+
+        <h2 id="result">Result: --</h2>
+
+        <img src="xingVM.png" alt="Xing VM Logo" class="logo">
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
