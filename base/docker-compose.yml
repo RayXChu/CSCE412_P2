@@ -1,0 +1,26 @@
+services:
+
+  replica1:
+    image: my-nginx-container
+    ports:
+      - "8081:80"
+      
+  replica2:
+    image: my-nginx-container
+    ports:
+      - "8082:80"
+      
+  replica3:
+    image: my-nginx-container
+    ports:
+      - "8083:80"
+      
+  replica4:
+    image: my-nginx-container
+    ports:
+      - "8084:80"
+      
+  replica5:
+    image: my-nginx-container
+    ports:
+      - "8085:80"
