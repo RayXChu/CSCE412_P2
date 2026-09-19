@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <main class="container">
+        <h1>Tip Calculator</h1>
+
+        <input type="number" id="bill" placeholder="Bill amount" min="0">
+
+        <input type="number" id="tip" placeholder="Tip %" min="0">
+
+        <button onclick="calculateTip()">Calculate</button>
+
+        <h2 id="tip-result">Tip: --</h2>
+        <h2 id="total-result">Total: --</h2>
+
+        <img src="xingVM.png" alt="Xing VM Logo" class="logo">
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
