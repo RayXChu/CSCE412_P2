@@ -25,27 +25,27 @@ services:
     ports:
       - "8085:80"
 
-  gpa:
+  gpa_calculator:
     build: ./gpa_calculator
     ports:
       - "8091:80"
 
-  temperature:
+  temperature_converter:
     build: ./temperature_converter
     ports:
       - "8092:80"
 
-  tip:
+  tip_calculator:
     build: ./tip_calculator
     ports:
       - "8093:80"
 
-  word-counter:
+  word_character_count:
     build: ./word_character_count
     ports:
       - "8094:80"
 
-  random-number:
+  random_number_generator:
     build: ./random_number_generator
     ports:
       - "8095:80"
