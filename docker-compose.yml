@@ -1,0 +1,51 @@
+services:
+
+  replica1:
+    build: ./base
+    ports:
+      - "8081:80"
+
+  replica2:
+    build: ./base
+    ports:
+      - "8082:80"
+
+  replica3:
+    build: ./base
+    ports:
+      - "8083:80"
+
+  replica4:
+    build: ./base
+    ports:
+      - "8084:80"
+
+  replica5:
+    build: ./base
+    ports:
+      - "8085:80"
+
+  gpa:
+    build: ./gpa_calculator
+    ports:
+      - "8091:80"
+
+  temperature:
+    build: ./temperature_converter
+    ports:
+      - "8092:80"
+
+  tip:
+    build: ./tip_calculator
+    ports:
+      - "8093:80"
+
+  word-counter:
+    build: ./word_character_count
+    ports:
+      - "8094:80"
+
+  random-number:
+    build: ./random_number_generator
+    ports:
+      - "8095:80"
